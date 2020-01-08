@@ -2,7 +2,7 @@ require "sinatra"
 
 get '/*' do
   puts params.to_s
-  return "release-should-work:#{params}"
+  return "release-should-NOT-work:#{params}"
 end
 
 post '/*' do
